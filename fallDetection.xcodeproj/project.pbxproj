@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D81318AE1F86C53600533BF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D81318AD1F86C53600533BF8 /* AppDelegate.m */; };
+		D81318B11F86C53600533BF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81318B01F86C53600533BF8 /* ViewController.m */; };
+		D81318B41F86C53600533BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81318B21F86C53600533BF8 /* Main.storyboard */; };
+		D81318B61F86C53600533BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81318B51F86C53600533BF8 /* Assets.xcassets */; };
+		D81318B91F86C53600533BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81318B71F86C53600533BF8 /* LaunchScreen.storyboard */; };
+		D81318BC1F86C53600533BF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D81318BB1F86C53600533BF8 /* main.m */; };
+		D81318C61F86C53600533BF8 /* fallDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81318C51F86C53600533BF8 /* fallDetectionTests.m */; };
+		D81318D11F86C53600533BF8 /* fallDetectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81318D01F86C53600533BF8 /* fallDetectionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D81318C21F86C53600533BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81318A11F86C53600533BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81318A81F86C53600533BF8;
+			remoteInfo = fallDetection;
+		};
+		D81318CD1F86C53600533BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81318A11F86C53600533BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81318A81F86C53600533BF8;
+			remoteInfo = fallDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D81318A91F86C53600533BF8 /* fallDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fallDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81318AC1F86C53600533BF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D81318AD1F86C53600533BF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D81318AF1F86C53600533BF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D81318B01F86C53600533BF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D81318B31F86C53600533BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D81318B51F86C53600533BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D81318B81F86C53600533BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D81318BA1F86C53600533BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81318BB1F86C53600533BF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D81318C11F86C53600533BF8 /* fallDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fallDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81318C51F86C53600533BF8 /* fallDetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fallDetectionTests.m; sourceTree = "<group>"; };
+		D81318C71F86C53600533BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81318CC1F86C53600533BF8 /* fallDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fallDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81318D01F86C53600533BF8 /* fallDetectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fallDetectionUITests.m; sourceTree = "<group>"; };
+		D81318D21F86C53600533BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D81318A61F86C53600533BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81318BE1F86C53600533BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81318C91F86C53600533BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D81318A01F86C53600533BF8 = {
+			isa = PBXGroup;
+			children = (
+				D81318AB1F86C53600533BF8 /* fallDetection */,
+				D81318C41F86C53600533BF8 /* fallDetectionTests */,
+				D81318CF1F86C53600533BF8 /* fallDetectionUITests */,
+				D81318AA1F86C53600533BF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D81318AA1F86C53600533BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81318A91F86C53600533BF8 /* fallDetection.app */,
+				D81318C11F86C53600533BF8 /* fallDetectionTests.xctest */,
+				D81318CC1F86C53600533BF8 /* fallDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D81318AB1F86C53600533BF8 /* fallDetection */ = {
+			isa = PBXGroup;
+			children = (
+				D81318AC1F86C53600533BF8 /* AppDelegate.h */,
+				D81318AD1F86C53600533BF8 /* AppDelegate.m */,
+				D81318AF1F86C53600533BF8 /* ViewController.h */,
+				D81318B01F86C53600533BF8 /* ViewController.m */,
+				D81318B21F86C53600533BF8 /* Main.storyboard */,
+				D81318B51F86C53600533BF8 /* Assets.xcassets */,
+				D81318B71F86C53600533BF8 /* LaunchScreen.storyboard */,
+				D81318BA1F86C53600533BF8 /* Info.plist */,
+				D81318BB1F86C53600533BF8 /* main.m */,
+			);
+			path = fallDetection;
+			sourceTree = "<group>";
+		};
+		D81318C41F86C53600533BF8 /* fallDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D81318C51F86C53600533BF8 /* fallDetectionTests.m */,
+				D81318C71F86C53600533BF8 /* Info.plist */,
+			);
+			path = fallDetectionTests;
+			sourceTree = "<group>";
+		};
+		D81318CF1F86C53600533BF8 /* fallDetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D81318D01F86C53600533BF8 /* fallDetectionUITests.m */,
+				D81318D21F86C53600533BF8 /* Info.plist */,
+			);
+			path = fallDetectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D81318A81F86C53600533BF8 /* fallDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81318D51F86C53600533BF8 /* Build configuration list for PBXNativeTarget "fallDetection" */;
+			buildPhases = (
+				D81318A51F86C53600533BF8 /* Sources */,
+				D81318A61F86C53600533BF8 /* Frameworks */,
+				D81318A71F86C53600533BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fallDetection;
+			productName = fallDetection;
+			productReference = D81318A91F86C53600533BF8 /* fallDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D81318C01F86C53600533BF8 /* fallDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81318D81F86C53600533BF8 /* Build configuration list for PBXNativeTarget "fallDetectionTests" */;
+			buildPhases = (
+				D81318BD1F86C53600533BF8 /* Sources */,
+				D81318BE1F86C53600533BF8 /* Frameworks */,
+				D81318BF1F86C53600533BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81318C31F86C53600533BF8 /* PBXTargetDependency */,
+			);
+			name = fallDetectionTests;
+			productName = fallDetectionTests;
+			productReference = D81318C11F86C53600533BF8 /* fallDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D81318CB1F86C53600533BF8 /* fallDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81318DB1F86C53600533BF8 /* Build configuration list for PBXNativeTarget "fallDetectionUITests" */;
+			buildPhases = (
+				D81318C81F86C53600533BF8 /* Sources */,
+				D81318C91F86C53600533BF8 /* Frameworks */,
+				D81318CA1F86C53600533BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81318CE1F86C53600533BF8 /* PBXTargetDependency */,
+			);
+			name = fallDetectionUITests;
+			productName = fallDetectionUITests;
+			productReference = D81318CC1F86C53600533BF8 /* fallDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D81318A11F86C53600533BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Divyankitha Raghava Urs";
+				TargetAttributes = {
+					D81318A81F86C53600533BF8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D81318C01F86C53600533BF8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D81318A81F86C53600533BF8;
+					};
+					D81318CB1F86C53600533BF8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D81318A81F86C53600533BF8;
+					};
+				};
+			};
+			buildConfigurationList = D81318A41F86C53600533BF8 /* Build configuration list for PBXProject "fallDetection" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D81318A01F86C53600533BF8;
+			productRefGroup = D81318AA1F86C53600533BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D81318A81F86C53600533BF8 /* fallDetection */,
+				D81318C01F86C53600533BF8 /* fallDetectionTests */,
+				D81318CB1F86C53600533BF8 /* fallDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D81318A71F86C53600533BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81318B91F86C53600533BF8 /* LaunchScreen.storyboard in Resources */,
+				D81318B61F86C53600533BF8 /* Assets.xcassets in Resources */,
+				D81318B41F86C53600533BF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81318BF1F86C53600533BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81318CA1F86C53600533BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D81318A51F86C53600533BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81318B11F86C53600533BF8 /* ViewController.m in Sources */,
+				D81318BC1F86C53600533BF8 /* main.m in Sources */,
+				D81318AE1F86C53600533BF8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81318BD1F86C53600533BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81318C61F86C53600533BF8 /* fallDetectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81318C81F86C53600533BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81318D11F86C53600533BF8 /* fallDetectionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D81318C31F86C53600533BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81318A81F86C53600533BF8 /* fallDetection */;
+			targetProxy = D81318C21F86C53600533BF8 /* PBXContainerItemProxy */;
+		};
+		D81318CE1F86C53600533BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81318A81F86C53600533BF8 /* fallDetection */;
+			targetProxy = D81318CD1F86C53600533BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D81318B21F86C53600533BF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81318B31F86C53600533BF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D81318B71F86C53600533BF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81318B81F86C53600533BF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D81318D31F86C53600533BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D81318D41F86C53600533BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D81318D61F86C53600533BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AATTD6PMSF;
+				INFOPLIST_FILE = fallDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.smartDev.fallDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D81318D71F86C53600533BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AATTD6PMSF;
+				INFOPLIST_FILE = fallDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.smartDev.fallDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D81318D91F86C53600533BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AATTD6PMSF;
+				INFOPLIST_FILE = fallDetectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.smartDev.fallDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fallDetection.app/fallDetection";
+			};
+			name = Debug;
+		};
+		D81318DA1F86C53600533BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AATTD6PMSF;
+				INFOPLIST_FILE = fallDetectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.smartDev.fallDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fallDetection.app/fallDetection";
+			};
+			name = Release;
+		};
+		D81318DC1F86C53600533BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AATTD6PMSF;
+				INFOPLIST_FILE = fallDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.smartDev.fallDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fallDetection;
+			};
+			name = Debug;
+		};
+		D81318DD1F86C53600533BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AATTD6PMSF;
+				INFOPLIST_FILE = fallDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.smartDev.fallDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fallDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D81318A41F86C53600533BF8 /* Build configuration list for PBXProject "fallDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81318D31F86C53600533BF8 /* Debug */,
+				D81318D41F86C53600533BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81318D51F86C53600533BF8 /* Build configuration list for PBXNativeTarget "fallDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81318D61F86C53600533BF8 /* Debug */,
+				D81318D71F86C53600533BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81318D81F86C53600533BF8 /* Build configuration list for PBXNativeTarget "fallDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81318D91F86C53600533BF8 /* Debug */,
+				D81318DA1F86C53600533BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81318DB1F86C53600533BF8 /* Build configuration list for PBXNativeTarget "fallDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81318DC1F86C53600533BF8 /* Debug */,
+				D81318DD1F86C53600533BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D81318A11F86C53600533BF8 /* Project object */;
+}
